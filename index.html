@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>Big</title>
+  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='highlight.css' rel='stylesheet' type='text/css' />
+  <style>
+    .new-shiny { background: #aaaaaa; }
+  </style>
+  <script src='big.js'></script>
+  <script src='highlight.js'></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class='dark'>
+  <div>DMDS 7:Introduction to Git</div>
+  <div>John Fink, Digital Scholarship Librarian
+  <notes>here is where you ask for people to interrupt you and maybe to ask why they are here</notes>
+  </div>
+  <div>What is Version Control?
+  <notes>Ask about what people here do wrt saving, collaborating, ensuring document integrity</notes>
+  </div>
+  <div>What is git?
+    <notes>Anyone already know? Anyone work with it? Know other systems?</notes>
+  </div>
+  <div> <img max-width: 100%; src="images/torvalds-beer.gif"/ >
+  <notes>Who's this dude? Anyone know?</notes>
+  </div>
+  <div>Why git?
+    <notes>briefly describe the Version Control Wars. Maybe bring operating system history into it, or cars,  or somethiing like that</notes>
+    </div>
+  <div>What is git <em>best for?</em></div>
+  <div>Things that are:</div>
+  <div><em>text</em></div>
+  <div>like yes, <em>text documents</em>, but also:
+  <notes>Text is plaintext, of course. Talk about the difference between a Word document and a Notepad document</notes>
+ </div> 
+  <div>datasets</div>
+  <div>marked-up data like <em>json</em> or <em>xml</em>
+    <notes>Are people familiar with json or xml? What do they know about it?</notes>
+    </div>
+  <div>Not as good for <em>binary</em> things like</div>
+  <div>images, sound, movies, etc
+    <notes>Ask why? What's different about images vs sound, movies?</notes>
+    </div>
+  <div>What are the basic git commands?
+    <notes>Talk about how git is primarily a *command line* thing, although clients exist.</notes>
+    </div>
+  <div>git config --global user.name / user.email 
+    <notes>Tells git who you are, shows up in logs</notes>
+    </div>
+  <div>git init
+    <notes>Starts a repository. From empty, or existing.</notes>
+  </div>
+
+  <div>git clone
+    <notes>Creates a new repository from someone else's repository.</notes>
+  </div>
+  <div>git add
+    <notes>adds a file to a git repository. Ask what situations might you *not* want to add a file to a repo? (passwords, etc)</notes>
+  </div>
+  <div>git commit
+    <notes>"Saves" your added files, makes log entry</notes>
+  </div>
+  <div>git remote
+    <notes>Defines a remote repository. Can have multiple, local, network, with different names.</notes>
+  </div>
+  <div>git push
+    <notes>push changes to a remote repo</notes>
+  </div>
+  <div>git status
+  </div>
+  <div>git checkout
+    <notes>Allows you to go BACK in TIME, or to different branches, or individual files, etc. Incredibly powerful and very confusing at times</notes>
+  </div>
+  <div>git branch
+    <notes>This is what makes git, git. Try to describe cheap branching. If anyone has used svn or other SCMs, how was their experience with it, etc.</notes>
+  </div>
+  <div>git pull
+    <notes>Incorporates changes from remote repo into your own -- for collaboration, etc.</notes>
+  </div>
+  <div>git diff
+    <notes>Shows differences -- useful for determining what has changed across commits.</notes>
+  </div>
+  <div>git log
+    <notes>What happened when? Note how each commit has its own hash -- security and integrity!</notes>
+  </div>
+  <div> <img src="images/git-log.png" /></div>
+  <div>git merge
+    <notes>Make changes on an experimental branch, want to merge them into a current?</notes>
+  </div>
+  <div>What is git<em>hub</em>?
+    <notes>this is where we do try.github.com</notes>
+  </div>
+</body>
+</html>
